@@ -29,6 +29,7 @@ jar {
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     implementation 'com.google.guava:guava:27.0.1-jre'
+    implementation 'org.ocpsoft.prettytime:prettytime-integration-jsf:4.0.2.Final'
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
